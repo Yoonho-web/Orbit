@@ -3,7 +3,7 @@
         <router-link to="/"><div class="logo">OR<span>BIT</span></div></router-link>
 
         <ul class="menu">
-            <li>Introduce</li>
+            <li><router-link to="/introduce">Introduce</router-link></li>
             <li>Photo</li>
         </ul>
 
