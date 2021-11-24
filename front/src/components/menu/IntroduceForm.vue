@@ -9,6 +9,13 @@
                 <p class="tit">희진</p>
                 <p class="birth">생일: 2000년 10월 19일 (21세)</p>
             </li>
+            <li>
+                <div class="memImgWrap">
+                    <div class="img"></div>
+                </div>
+                <p class="tit">츄</p>
+                <p class="birth">1999년 10월 20일[4] (22세)</p>
+            </li>
         </ul>
     </div>
 </template>
