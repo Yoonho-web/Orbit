@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import { getAlbumInfo } from '@/api/index.js';
 
 Vue.use(Vuex);
 
@@ -15,9 +16,25 @@ export default new Vuex.Store({
           "name" : "heejin",
           "age" : 32
       }, 
-  ]
+    ],
+    album :[
+
+    ]
   },
-  mutations: {},
-  actions: {},
+  //가공 하는 곳
+  mutations: {
+    SET_ALBUM(state, response){
+      state.album = response.data.album;
+    }
+  },
+  actions: {
+    async GET_ALBUM(context){
+      //axios 불러줌
+      const response = await getAlbumInfo();
+      console.log(response);
+      //mutations로 넘겨주는거 
+      context.commit('SET_ALBUM', response)
+    }
+  },
   modules: {},
 });
