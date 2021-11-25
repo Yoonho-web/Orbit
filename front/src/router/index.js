@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import MainView from '@/views/MainView.vue';
 import IntroduceView from '@/views/IntroduceView.vue';
+import MusicView from '@/views/MusicView.vue';
 
 Vue.use(VueRouter);
 
@@ -17,6 +18,11 @@ const routes = [
     path: '/introduce',
     name: 'IntroduceView',
     component: IntroduceView
+  },
+  {
+    path: '/music',
+    name: 'MusicView',
+    component: MusicView
   },
 ];
 

@@ -4,6 +4,7 @@
 
         <ul class="menu">
             <li><router-link to='/introduce'>Introduce</router-link></li>
+            <li><router-link to='/music'>Music</router-link></li>
             <li>Photo</li>
         </ul>
 
@@ -22,6 +23,10 @@ export default {
 
 <style scoped>
 #nav {overflow: hidden; height: 100px; background-color: #333;}
+
+#nav a {font-weight: bold; color: white;}
+
+#nav a.router-link-exact-active { font-weight: bold; color: rgb(199, 120, 120);}
 
 #nav .logo {float: left; font-size: 30px; font-weight: 600; color: #fff;}
 #nav .logo span {color: #aaa;}
