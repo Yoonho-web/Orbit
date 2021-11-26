@@ -25,6 +25,7 @@ export default new Vuex.Store({
   mutations: {
     SET_ALBUM(state, response){
       state.album = response.data.album;
+      console.log('나오니?', state.album);
     }
   },
   actions: {
