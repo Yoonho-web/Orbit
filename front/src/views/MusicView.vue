@@ -1,17 +1,17 @@
 <template>
-    <div class="wrapAll">
-        <Album></Album>
-    </div>
+  <div class="wrapAll">
+      <Album></Album>
+  </div>
 </template>
 
 <script>
-import Album from '../components/menu/Album.vue'
+import Album from '@/components/menu/Album.vue'
 export default {
-  components: { Album },
+  components: { Album }
 
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
