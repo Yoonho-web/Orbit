@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PhotoForm from '../components/menu/PhotoForm.vue'
+import PhotoForm from '@/components/menu/PhotoForm.vue'
 export default {
     components : { PhotoForm }
 }

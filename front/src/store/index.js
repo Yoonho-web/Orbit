@@ -34,7 +34,7 @@ export default new Vuex.Store({
       const response = await getAlbumInfo();
       console.log(response);
       //mutations로 넘겨주는거 
-      context.commit('SET_ALBUM', response)
+      context.commit('SET_ALBUM', response);
     }
   },
   modules: {},

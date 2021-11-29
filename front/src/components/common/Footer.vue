@@ -13,16 +13,16 @@
                 <img onclick="window.open('https://github.com/Yoonho-web/Orbit')" src="@/assets/sns/git.png" width="25px">
             </li>
             <li>
-                <img onclick="window.open('https://www.facebook.com/loonatheworld')" src="@/assets/sns/facebook_white.png" width="25px">
+                <img onclick="window.open('https://www.facebook.com/loonatheworld')" src="@/assets/sns/facebook_white.png">
             </li>
             <li>
-                <img onclick="window.open('https://www.instagram.com/loonatheworld/?hl=ko')" src="@/assets/sns/insta.png" width="25px">
+                <img onclick="window.open('https://www.instagram.com/loonatheworld/?hl=ko')" src="@/assets/sns/insta.png">
             </li>
             <li>
-                <img onclick="window.open('https://twitter.com/loonatheworld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor')" src="@/assets/sns/twitter_white.png" width="25px">
+                <img onclick="window.open('https://twitter.com/loonatheworld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor')" src="@/assets/sns/twitter_white.png">
             </li>
             <li>
-                <img onclick="window.open('https://www.youtube.com/channel/UCOJplhB0wGQWv9OuRmMT-4g')" src="@/assets/sns/youtube_white.png" width="25px">
+                <img onclick="window.open('https://www.youtube.com/channel/UCOJplhB0wGQWv9OuRmMT-4g')" src="@/assets/sns/youtube_white.png">
             </li>
         </ul>
     </div>
@@ -48,6 +48,7 @@ export default {
 
 #footer .snsWrap {float: right; overflow: hidden;}
 #footer .snsWrap li {float: left; margin: 40px 15px 0 0;}
+#footer .snsWrap li img {width: 25px;}
 #footer .snsWrap li img:hover {cursor: pointer;}
 
 </style>
