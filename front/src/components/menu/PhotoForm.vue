@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <div class="headImg"></div>
+    <div class="viewWrap">
         <button v-on:click="getH" v-on:mouseleave="pathInit">희진</button>
         <button v-on:click="getC">츄</button>
         <ul class="memberWrap">
@@ -49,13 +48,12 @@ export default {
 
 
 /* top img */
-.headImg { background: url('../../assets/loona.gif')no-repeat; width: 100%; height: 304px; margin: 20px auto;}
 
-.memberWrap {overflow: hidden; width: 90%; margin: 0 auto;}
-.memberWrap li {float: left; margin: 20px 10px 0;}
-.memberWrap li .memImgWrap {width: 1000px; background-color: #000;}
-.memberWrap li .memImgWrap .img img {height: 20%; background-color: #000;}
-.memberWrap li .tit {font-size: 20px; font-weight: 600; text-align: center; margin: 10px 0;}
-.memberWrap li .birth {text-align: center;}
+.viewWrap {overflow: hidden; width: 90%; margin: 0 auto;}
+.viewWrap li {float: left; margin: 20px 10px 0;}
+.viewWrap li .memImgWrap {width: 1000px; background-color: #000;}
+.viewWrap li .memImgWrap .img img {height: 20%; background-color: #000;}
+.viewWrap li .tit {font-size: 20px; font-weight: 600; text-align: center; margin: 10px 0;}
+.viewWrap li .birth {text-align: center;}
 /* member Image */
 </style>

@@ -18,5 +18,6 @@ export default{
 
 <style>
 *, div, ul, li, p, a, span {text-decoration: none; list-style: none; padding: 0; margin: 0;}
-.viewWrap {width: 100%; min-height: 100vh;}
+.viewWrap {width: 100%; min-height: 100vh; z-index: 1;}
+
 </style>

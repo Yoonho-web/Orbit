@@ -1,6 +1,8 @@
 <template>
-    <div>
-        인트로페이지
+    <div class="viewWrap">
+        <div class="imgWrap">
+            <img src="../../assets/loona.png">
+        </div>
     </div>
 </template>
 
@@ -11,5 +13,7 @@ export default {
 </script>
 
 <style scoped>
+.imgWrap {width: 80%; margin: 0 auto;}
+.imgWrap img {width: 30%;}
     
 </style>

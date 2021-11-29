@@ -22,13 +22,14 @@ export default {
 </script>
 
 <style scoped>
-#nav {overflow: hidden; height: 80px; background-color: #333; z-index: 999;}
+
+#nav {overflow: hidden; background-color: #333; z-index: 999;}
 #nav .menuWrap {width: 1080px; margin: 30px auto; position: relative;}
 
 #nav a {font-weight: bold; color: white;}
 #nav a.router-link-exact-active {font-weight: bold; color: rgb(199, 120, 120);}
 
-#nav .logo {float: left; font-size: 25px; font-weight: 600; color: #fff; margin: 30px 20px 0;}
+#nav .logo {float: left; font-size: 25px; font-weight: 600; color: #fff; margin: 30px;}
 #nav .logo span {color: #aaa;}
 
 #nav .menuWrap .menu {overflow: hidden; position: absolute;top: 2px;right: 40%;}

@@ -7,7 +7,7 @@
 <script>
 import IntroduceForm from '@/components/menu/IntroduceForm.vue'
 export default {
-    components: { IntroduceForm },
+    components: { IntroduceForm }
 
 }
 </script>
