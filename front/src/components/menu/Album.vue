@@ -37,6 +37,7 @@ export default {
     created () {
         this.getAlbum();
     },
+
 }
 </script>
 
