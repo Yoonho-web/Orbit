@@ -1,7 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import { getAlbumInfo } from '@/api/index.js';
-import { getSongInfo } from '@/api/index.js';
 
 Vue.use(Vuex);
 
@@ -27,10 +26,7 @@ export default new Vuex.Store({
     SET_ALBUM(state, response){
       state.album = response.data.album;
       console.log('나오니?', state.album);
-    },
-    SET_SONG(stateSong, resSong){
-      stateSong.song = resSong.data.song;
-    },
+    }
   },
 
   actions: {
@@ -41,11 +37,6 @@ export default new Vuex.Store({
       //mutations로 넘겨주는거 
       context.commit('SET_ALBUM', response);
     },
-    async GET_SONG(context) {
-      const resSong = await getSongInfo();
-
-      context.commit('SET_SONG', resSong);
-    }
   },
   modules: {},
 });

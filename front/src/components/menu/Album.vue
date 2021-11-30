@@ -1,12 +1,12 @@
 <template>
     <div class="viewWrap">
         <p class="head">이달의소녀 음반</p>
-        <ul class="albumList">
+        <ul class="albumList" v-for="album in this.$store.state.album" v-bind:key="album.index">
             <li>
                 <!-- 앨범 몇번째인가? 앨범 제목은 무엇인가 -->
-                <p class="tit">싱글앨범</p>
+                <p class="tit"><span>{{ album.num }}번째 앨범</span>{{ album.albumName }}</p>
                 <div class="imgWrap">
-                    <img src="@/assets/album/1st.jpg" alt="" />
+                    <img :src="require(`@/assets/album/${album.image}`)" />
                 </div>
                 <div class="listWrap">
                     <ul class="listTitle">
@@ -15,9 +15,9 @@
                         <li>좋아요</li>
                     </ul>
                     <!-- 엘범 숫자, 곡명, 좋아요를 불러와야지 -->
-                    <ul class="listInfo" v-for="album in this.$store.state.album" v-bind:key="album.index">
-                        <li>{{ album.number }}</li>
-                        <li>{{ album.albumName }}</li>
+                    <ul class="listInfo">
+                        <li>{{ album.track }}</li>
+                        <li>{{ album.songName }}</li>
                         <li>{{ album.like }}</li>
                     </ul>
                 </div>
