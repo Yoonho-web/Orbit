@@ -5,9 +5,5 @@ function getAlbumInfo(){
     const url = 'http://localhost:3000/album';
     return axios.get(url);
 }
-function getSongInfo(){
-    const url = 'http://localhost:3000/album';
-    return axios.get(url);
-}
 
-export { getAlbumInfo, getSongInfo }
+export { getAlbumInfo }
