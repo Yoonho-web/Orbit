@@ -49,7 +49,7 @@ export default {
 
 /* top img */
 
-.viewWrap {overflow: hidden; width: 90%; margin: 0 auto;}
+.viewWrap {overflow: hidden;}
 .viewWrap li {float: left; margin: 20px 10px 0;}
 .viewWrap li .memImgWrap {width: 1000px; background-color: #000;}
 .viewWrap li .memImgWrap .img img {height: 20%; background-color: #000;}
