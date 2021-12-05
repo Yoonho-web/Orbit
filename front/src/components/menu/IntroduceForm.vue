@@ -12,14 +12,6 @@
                 <p class="nation"><span>한국</span></p>
                 <p class="birth">2000. 10. 19. (21세)</p>
             </li>
-            <li>
-                <div class="profileImg">
-                    <img src="../../assets/member/chu.jpg" alt="">
-                </div>
-                <p class="name">희진</p>
-                <p class="nation"><span>한국</span></p>
-                <p class="birth">2000. 10. 19. (21세)</p>
-            </li>
         </ul>
     </div>
 </template>

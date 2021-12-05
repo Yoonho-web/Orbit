@@ -1,17 +1,15 @@
 <template>
-  <div class="wrapAll">
-      <Album></Album>
-  </div>
+  <music-form></music-form>
 </template>
 
 <script>
-import Album from '@/components/menu/Album.vue'
+import MusicForm from '@/components/menu/MusicForm.vue'
 export default {
-  components: { Album }
+  components: { MusicForm },
 
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
